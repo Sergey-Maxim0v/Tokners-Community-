@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Century Gothic";
+    font-weight: 700;
+    src: url(../fonts/CenturyGothic-Bold.woff2);
+}
+@font-face {
+    font-family: "Century Gothic";
+    font-weight: 400;
+    src: url(../fonts/CenturyGothic.woff2);
+}
+@font-face {
+    font-family: "Azo Sans";
+    font-weight: 500;
+    src: url(../fonts/AzoSans-Medium.woff2);
+}
+@font-face {
+    font-family: "Azo Sans";
+    font-weight: 400;
+    src: url(../fonts/AzoSans-Regular.woff2);
+}
