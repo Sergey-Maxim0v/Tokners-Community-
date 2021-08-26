@@ -1,0 +1,62 @@
+.header{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 120px;
+    flex-wrap: nowrap;
+}
+.headerLogo{
+    display: block;
+    width: 187px;
+    height: 30px;
+    background-image: url(../img/logo.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0 40px;
+}
+.headerLink{
+    position: relative;
+    display: block;
+    margin: 0 30px;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.headerSign{
+    position: relative;
+    justify-self: flex-end;
+    margin: 0 0 0 auto;
+
+}
+.headerButton{
+    position: relative;
+    display: block;
+    width: 147px;
+    height: 48px;
+    justify-self: flex-end;
+    margin: 0 40px;
+    font-family: "Century Gothic";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0);
+    border: 2px solid #22A75D;
+    box-sizing: border-box;
+    border-radius: 52px;
+}
+.headerBurger{
+    position: relative;
+    display: none;
+    justify-self: flex-end;
+    background: rgba(255, 255, 255, 0);
+}
