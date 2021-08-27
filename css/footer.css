@@ -27,7 +27,6 @@
     margin: 0 5px;
     width: 50px;
     height: 50px;
-    align-items: center;
     border: 2px solid rgba(255, 255, 255, 0.05);
     box-sizing: border-box;
     border-radius: 25px;
@@ -76,4 +75,27 @@
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+}
+@media (max-width: 600px) {
+    .footer{
+        height: 265px;
+        padding: 40px 20px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .footerlinks{
+        justify-content: space-between;
+        width: 100%;
+        margin: 32px 0;
+    }
+    .footerlinks a{
+        width: 48px;
+        height: 48px;
+        border-radius: 24px;
+        background-size: 19.2px 19.2px;
+    }
+    .footerText{
+        flex-direction: column;
+        align-items: center;
+    }
 }
