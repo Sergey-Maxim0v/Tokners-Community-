@@ -1,4 +1,8 @@
 body{
     background: #0F1320;
     color: #FFFFFF;
+    width: 100%;
+}
+.homebody{
+    width: 100%;
 }
