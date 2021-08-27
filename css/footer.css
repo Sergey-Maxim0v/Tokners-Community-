@@ -23,5 +23,57 @@
     width: auto;
 }
 .footerlinks a{
-
+    display: block;
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    box-sizing: border-box;
+    border-radius: 25px;
+    border-style: solid;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+}
+.footerTwit{
+    background-image: url(../img/twitter-icon.svg);
+}
+.footerFbook{
+    background-image: url(../img/facebook-icon.svg);
+}
+.footerInst{
+    background-image: url(../img/instagram-icon.svg);
+}
+.footerMedium{
+    background-image: url(../img/medium-icon.svg);
+}
+.footerGit{
+    background-image: url(../img/github-icon.svg);
+}
+.footerReddit{
+    background-image: url(../img/reddit-icon.svg);
+}
+.footerText{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.footerRights{
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.footerDisign{
+    display: block;
+    width: 150px;
+    height: 22px;
+    background-image: url(../img/author-copyright.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
