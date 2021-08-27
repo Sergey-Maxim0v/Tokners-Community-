@@ -6,3 +6,75 @@ body{
 .homebody{
     width: 100%;
 }
+.topWrap{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 0 9vw;
+}
+.topContent{
+    width: 570px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 0 150px 0;
+}
+.topContent h5{
+    font-family: "Century Gothic";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    background: linear-gradient(0deg, #2B3087 0%, #00B4EC 81.99%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgba(0, 180, 236, 1);
+    margin: 0 0 10px 0;
+}
+.topContent h2{
+    font-family: "Century Gothic";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    margin: 0 0 30px 0;
+}
+.topContent p{
+    width: 530px;
+    font-family: "Century Gothic";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #DDE2FF;
+    opacity: 0.6;
+    margin: 0 0 40px 0;
+}
+.topBtn{
+    width: 147px;
+    height: 48px;
+    background: #22A75D;
+    box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+    border-radius: 52px;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.topImg{
+    width: calc(91vw - 570px);
+    height: 930px;
+    background: url(../img/promo-1@2x.png) right no-repeat;
+    background-size: cover;
+}
+@media (max-width: 600px) {
+
+}
