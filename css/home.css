@@ -6,6 +6,7 @@ body{
 .homebody{
     width: 100%;
 }
+/*___top_______*/
 .topWrap{
     width: 100%;
     height: auto;
@@ -76,42 +77,4 @@ body{
     background-position: right 70%;
     background-size: 70vw auto;
 }
-@media (max-width: 600px) {
-    .topWrap{
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0;
-    }
-    .topContent{
-        width: 100%;
-        margin: 0;
-        padding: 20px;
-    }
-    .topContent h5{
-        font-size: 14px;
-    }
-    .topContent h2{
-        font-size: 36px;
-        line-height: 40px;
-    }
-    .topContent p{
-        width: 100%;
-        font-size: 14px;
-        line-height: 22px;
-    }
-    .topBtn{
-        z-index: 5;
-    }
-    .topImg{
-        z-index: 1;
-        position: relative;
-        top: -50px;
-        width: 100%;
-        height: 450px;
-        background: url(../img/promo-1.png);
-        background-position: 50% 40%;
-        background-repeat: no-repeat;
-        background-size: auto 150%;
-    }
-}
+/*___for______*/
