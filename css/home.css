@@ -222,3 +222,132 @@ body{
     line-height: 24px;
     opacity: 0.6;
 }
+/*___q1234_______*/
+.blockQ1234{
+    background: #FFFFFF;
+    width: 100%;
+    height: auto;
+}
+.q1234Content{
+    background: #0F1320;
+    width: 100%;
+    height: auto;
+    border-radius: 0px 300px 0px 0px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 205px 9% 180px 9%;
+}
+.qContent{
+    width: 24%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.qHead{
+    display: flex;
+    align-items: flex-end;
+    margin: 0 0 35px 0;
+}
+.qColor{
+    height: 82px;
+    width: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Century Gothic";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    color: #0F1320;
+    border-radius: 42px 42px 42px 20px;
+}
+.qColor::after{
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    position: relative;
+    right: -40px;
+    border-radius: 6px;
+}
+.q1Color::after{
+    background: #22A75D;
+}
+.q2Color::after{
+    background: #2278D4;
+}
+.q3Color::after{
+    background: #FFD100;
+}
+.q4Color::after{
+    background: #E20613;
+}
+.q1Color{
+    background: #22A75D;
+    box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+}
+.q2Color{
+    background: #2278D4;
+    box-shadow: 0px 15px 25px rgba(34, 120, 212, 0.25);
+}
+.q3Color{
+    background: #FFD100;
+    box-shadow: 0px 15px 25px rgba(255, 209, 0, 0.25);
+}
+.q4Color{
+    background: #E20613;
+    box-shadow: 0px 15px 25px rgba(226, 6, 19, 0.25);
+}
+.qYear{
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0 10px
+}
+.qList{
+    font-family: "Century Gothic";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 34px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+.qList li{
+    margin: 15px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+}
+.qList p{
+    width: 100%;
+}
+.qList .qnumber{
+    width: 40px;
+    font-family: "Azo Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 34px;
+    opacity: 1;
+}
+.q1number{
+    color: #22A75D;
+}
+.q2number{
+    color: #2278D4;
+}
+.q3number{
+    color: #FFD100;
+}
+.q4number{
+    color: #E20613;
+}
