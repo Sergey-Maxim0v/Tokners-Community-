@@ -423,7 +423,7 @@ body{
     line-height: 24px;
     color: #9FA1A6;
 }
-.comingContent a{
+.comingLink{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -440,6 +440,9 @@ body{
     text-align: center;
     color: #FFFFFF;
 }
+.comingLinkHide{
+    display: none;
+}
 .comingImg{
     width: 46vw;
     height: 86vh;
@@ -453,8 +456,7 @@ body{
     border-radius: 25px;
     background: #171B29;
 }
-.comingImg::after{
-    content: "";
+.comingPhoto{
     width: 46vw;
     height: 86vh;
     background: url(../img/promo-2@2x.png) no-repeat;
