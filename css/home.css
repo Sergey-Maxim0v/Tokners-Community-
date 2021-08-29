@@ -2,9 +2,24 @@ body{
     background: #0F1320;
     color: #FFFFFF;
     width: 100%;
+    position: relative;
 }
-.homebody{
+.homepage{
     width: 100%;
+    position: relative;
+}
+.bgtop{
+    position: absolute;
+    width: 70vw;
+    height: 70vh;
+    z-index: -1;
+    background-image: url(../img/top-blink@2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: -20vh;
+    right: 10vw;
+    filter: blur(200px);
+    transform: rotate(-165deg);
 }
 /*___top_______*/
 .topWrap{

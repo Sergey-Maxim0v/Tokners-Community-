@@ -1,5 +1,18 @@
 @media (max-width: 600px) {
     /*___top_______*/
+    .bgtop{
+        position: absolute;
+        width: 70vw;
+        height: 70vh;
+        z-index: -1;
+        background-image: url(../img/top-blink.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        top: -20vh;
+        right: 10vw;
+        filter: blur(200px);
+        transform: rotate(-165deg);
+    }
     .topWrap{
         flex-direction: column;
         justify-content: space-between;
