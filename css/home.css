@@ -465,3 +465,168 @@ body{
     position: absolute;
     right: 1vw;
 }
+/*___presail_______*/
+.blockPresail{
+    width: 100%;
+    height: auto;
+    background: #0F1320;
+    margin: 0 0 60px 0;
+}
+.presailContent{
+    width: 100%;
+    height: 100%;
+    background: url(../img/block2-color@2x.png) no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    border-radius: 0 200px 0 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.presailContent h3{
+    font-family: "Century Gothic";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 140px 0 20px 0;
+    position: relative;
+    top: 40px;
+}
+.presailPhases{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.presailPhase1{
+    position: relative;
+    top: 40px;
+}
+.presailPhase2{
+    position: relative;
+    top: 60px;
+}
+.presailPhase3{
+    position: relative;
+    top: 40px;
+}
+.presailPhase{
+    width: 27vw;
+    max-width: 511px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 25px;
+    margin: 0 10px;
+}
+.PhaseHead{
+    width: 323px;
+    height: 288px;
+    box-sizing: border-box;
+    margin: 57px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.phase1head{
+    background: url(../img/01.svg) no-repeat;
+    background-position: 0 0;
+    background-size: 100% 100%;
+}
+.phase2head{
+    background: url(../img/02.svg) no-repeat;
+    background-position: 0 0;
+    background-size: 100% 100%;
+}
+.phase3head{
+    background: url(../img/03.svg) no-repeat;
+    background-position: 0 0;
+    background-size: 100% 100%;
+}
+.phaseColor{
+    height: 82px;
+    width: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Century Gothic";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    color: #0F1320;
+    border-radius: 42px 42px 42px 20px;
+    margin: 53px 0 0 0;
+}
+.phase1Color{
+    background: #22A75D;
+    box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+}
+.phase2Color{
+    background: #2278D4;
+    box-shadow: 0px 15px 25px rgba(34, 120, 212, 0.25);
+}
+.phase3Color{
+    background: #FFD100;
+    box-shadow: 0px 15px 25px rgba(255, 209, 0, 0.25);
+}
+.PhaseHead h4{
+    font-family: "Century Gothic";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 54px;
+    color: #191B21;
+    margin: auto 0 0 0;
+}
+.PhaseHead p{
+    font-family: "Century Gothic";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #191B21;
+    opacity: 0.8;
+    margin: 9px 0 7px 0;
+}
+.presailRates{
+    font-family: "Century Gothic";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #191B21;
+    opacity: 0.8;
+    margin: 70px 0 0 0;
+}
+.presailSoft{
+    font-family: "Century Gothic";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #191B21;
+    opacity: 0.8;
+    margin: 20px 0 0 0;
+}
+.presailHard{
+    font-family: "Century Gothic";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #191B21;
+    opacity: 0.8;
+    margin: 10px 0 87px 0;
+}

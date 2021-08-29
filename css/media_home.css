@@ -244,8 +244,9 @@
     .comingPhoto{
         width: 98vw;
         height: 350px;
-        background: url(../img/promo-2@2x.png) no-repeat;
+        background: url(../img/promo-2.png) no-repeat;
         background-position: 0 0;
         background-size: 90% 100%;
     }
+    /*___presail_______*/
 }
