@@ -634,3 +634,91 @@ body{
     display: none;
 }
 /*___buy_______*/
+.blockBuy{
+    width: 100%;
+    height: auto;
+}
+.blockBuy h3{
+    width: 100%;
+    margin: 160px 0 0 0;
+    font-family: "Century Gothic";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #F7F5F9;
+}
+.buyContent{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.buyStep{
+    height: auto;
+    width: 27vw;
+    margin: 0 10px;
+    background: #171B29;
+    border-radius: 25px;
+    padding: 88px 3.7vw 100px 3.7vw;
+}
+.buy02{
+    position: relative;
+    top: 60px;
+}
+.buy03{
+    position: relative;
+}
+.buy02::before{
+    content: "";
+    display: block;
+    width: 86px;
+    height: 86px;
+    background: #0F1320;
+    background-image: url(../img/green-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 24px 24px;
+    border-radius: 43px;
+    position: absolute;
+    left: -53px;
+    top: 55px;
+}
+.buy03::before{
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 86px;
+    height: 86px;
+    background: #0F1320;
+    background-image: url(../img/yellow-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 24px 24px;
+    border-radius: 43px;
+    position: absolute;
+    left: -53px;
+    top: 115px;
+}
+.buyNumber{
+    font-family: "Century Gothic";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #FFFFFF;
+    opacity: 0.3;
+    position: relative;
+    top: -65px;
+    left: -2.2vw;
+}
+.buyText{
+    font-family: "Century Gothic";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
