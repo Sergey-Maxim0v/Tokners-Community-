@@ -634,6 +634,10 @@ body{
     display: none;
 }
 /*___buy_______*/
+.buyrow{
+    width: 100%;
+    height: auto;
+}
 .blockBuy{
     width: 100%;
     height: auto;
@@ -722,3 +726,4 @@ body{
     line-height: 24px;
     color: #FFFFFF;
 }
+/*___ _______*/
