@@ -1,6 +1,7 @@
 @media (max-width: 600px) {
     /*___top_______*/
     .bgtop{
+        display: none;
         position: absolute;
         width: 70vw;
         height: 70vh;
