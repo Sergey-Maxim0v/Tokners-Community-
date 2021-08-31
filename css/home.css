@@ -541,13 +541,14 @@ body{
     margin: 0 10px;
 }
 .PhaseHead{
-    width: 323px;
+    width: 63%;
     height: 288px;
     box-sizing: border-box;
     margin: 57px 0 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
 }
 .phase1head{
     background: url(../img/01.svg) no-repeat;
