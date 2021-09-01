@@ -1,4 +1,4 @@
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
     .colorimg{
         display: none;
         }
@@ -47,7 +47,7 @@
     }
 
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     /*___pagetitle_______*/
     .pageTitle{
         width: 100%;

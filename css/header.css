@@ -64,7 +64,7 @@
     background-size: 100% 100%;
     margin: 0 20px;
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .header{
         justify-content: space-between;
         align-items: center;
