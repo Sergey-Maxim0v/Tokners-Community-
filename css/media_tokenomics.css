@@ -1,4 +1,8 @@
-
+@media (max-width: 1000px) {
+    .colorimg{
+    display: none;
+    }
+}
 @media (max-width: 800px) {
     .blockAsymmetry{
         height: auto;
@@ -165,6 +169,7 @@
         order: 2;
     }
     .colorimg{
+        display: block;
         order: 3;
         align-self: center;
         margin: 10px 0px;
