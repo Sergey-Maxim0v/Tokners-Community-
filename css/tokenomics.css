@@ -266,7 +266,6 @@ body{
     position: relative;
     align-self: flex-end;
     margin: -70px 0 17px 0;
-
 }
 .asimmetryBot{
     position: relative;
@@ -285,6 +284,7 @@ body{
     color: #0F1320;
 }
 .asimBln{
+    margin: 40px 0 0 0;
     font-family: "Century Gothic";
     font-style: normal;
     font-weight: bold;
@@ -299,6 +299,7 @@ body{
     color: #FFD100;
 }
 .asimTokens{
+    align-self: flex-end;
     font-family: "Century Gothic";
     font-style: normal;
     font-weight: normal;
@@ -309,6 +310,7 @@ body{
     color: #0F1320;
 }
 .asimText{
+    margin: 20px 0 0 0;
     max-width: 650px;
     font-family: "Century Gothic";
     font-style: normal;
