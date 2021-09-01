@@ -1,4 +1,50 @@
 
+@media (max-width: 800px) {
+    .blockAsymmetry{
+        height: auto;
+        width: 100;
+        padding: 60px 20px;
+        border-radius: 0 10vw 0 10vw;
+        display: flex;
+        flex-direction: column;
+        background-image: url(../img/block2-color@2x.png);
+        background-repeat: no-repeat;
+        background-size: 100% 150%;
+        background-position: 0 0;
+        position: relative;
+    }
+    .asimmetryContentblock{
+        height: auto;
+        width: auto;
+        min-width: auto;
+        padding: 90px 20px;
+        background: #FFFFFF;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .asimmetryTop{
+        position: relative;
+        align-self: center;
+        margin: 0px 0 0px 0;
+    }
+    .asimmetryBot{
+        position: relative;
+        align-self: center;
+        margin: 40px 0px 0px 0;
+    }
+    .footer{
+        width: 100%;
+        height: 310px;
+        padding: 0 0 20px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+}
 @media (max-width: 600px) {
     /*___pagetitle_______*/
     .pageTitle{
