@@ -237,7 +237,88 @@ body{
     color: #FFFFFF;
     opacity: 0.7;
 }
+/*___asimmetry_______*/
+.blockAsymmetry{
+    height: auto;
+    width: 100;
+    padding: 0 9vw;
+    border-radius: 0 10vw 0 10vw;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/block2-color@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    position: relative;
+}
+.asimmetryContentblock{
+    height: auto;
+    width: auto;
+    min-width: 700px;
+    padding: 90px 10vw;
+    background: #FFFFFF;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.asimmetryTop{
+    position: relative;
+    align-self: flex-end;
+    margin: -70px 0 17px 0;
 
+}
+.asimmetryBot{
+    position: relative;
+    align-self: flex-start;
+    margin: 17px 0 -70px 0;
+}
+.asimHead{
+    max-width: 650px;
+    font-family: "Century Gothic";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #0F1320;
+}
+.asimBln{
+    font-family: "Century Gothic";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 96px;
+    letter-spacing: -0.02em;
+}
+.asimGreen{
+    color: #19A255;
+}
+.asimYellow{
+    color: #FFD100;
+}
+.asimTokens{
+    font-family: "Century Gothic";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 54px;
+    text-align: right;
+    letter-spacing: -0.02em;
+    color: #0F1320;
+}
+.asimText{
+    max-width: 650px;
+    font-family: "Century Gothic";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.6;
+}
 /*___bot_______*/
 .bottom{
     width: 100%;
